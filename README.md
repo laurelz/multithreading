@@ -8,3 +8,5 @@ Ubuntu 14.04
 通過pthread_exit()和pthread_join()傳遞結構，需要使用動態內存分配
 
 pthread_cleanup 函数族，包括push和pop，初步尝试调用线程清理函数，仍存在疑问
+
+pthread_cond 函数族，通过条件变量和互斥锁来实现线程间同步
